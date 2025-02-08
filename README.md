@@ -7,9 +7,9 @@
 
 ### Prácticas
 Seran 2 practicas y 1 extra
-| Practica                          |                                   Enunciado  |
-| :------------------------------ |  ---------------------------------------------: |
-| Practica 1 | -|
+| Practica                          |                                   Enunciado  |Fecha de Entrega|
+| :------------------------------ |  ---------------------------------------------: |---------------|
+| Practica 1 | |14/02/2025|
 
 
 ### Proyectos
