@@ -6,6 +6,11 @@
 | Zenaida Irazema Chacón García   | [ZenaidaChacon](https://github.com/ZenaidaChacon) |
 
 ### Prácticas
+Seran 2 practicas y 1 extra
+| Practica                          |                                   Enunciado  |Fecha de Entrega|
+| :------------------------------ |  ---------------------------------------------: |---------------|
+| Practica 1 | |14/02/2025|
+
 
 ### Proyectos
 
