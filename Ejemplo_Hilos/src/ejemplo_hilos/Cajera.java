@@ -24,12 +24,18 @@ public class Cajera {
     }
     
    public void procesarCompra(Cliente cliente, long timeStamp){
+       long temp = (System.currentTimeMillis()-timeStamp)/1000;
+       System.out.println(temp);
        System.out.println(" seg " + "la cajera: "+this.nombre+"COMIENZA A ATENDER EL CLIENTE"+cliente.getNombre()+
-               "esta siendo atendido en el tiempo: "+(System.currentTimeMillis()-timeStamp)/1000 + " Seg");
+               "esta siendo atendido en el tiempo: "+temp + " Seg");
        for (int i = 0; i<cliente.getCompras().length; i++){
-           System.out.println("Procesando los productos: "+(i+1)+"->en el tiempo:"+(System.currentTimeMillis()-timeStamp)/1000 + " Seg");
+           temp = (System.currentTimeMillis()-timeStamp)/1000;
+           System.out.println("Procesando los productos: "+(i+1)+"->en el tiempo: "+ temp + " Seg");
+           esperarSegundos(1);
        }
-       System.out.println("La cajera "+this.nombre +" ha terminado de atender al cliente: "+cliente.getNombre()+" en: "+(System.currentTimeMillis()-timeStamp)/1000 + " Seg");
+       temp = (System.currentTimeMillis()-timeStamp)/1000;
+       System.out.println("La cajera "+this.nombre +" ha terminado de atender al cliente: "+cliente.getNombre()+" en: "+temp + " Seg");
+       
    }
    
    private void esperarSegundos(int segundos){
